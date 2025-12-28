@@ -1,2 +1,2 @@
 # Obsidian-Images
-Obsidian-Images。repo
+# Obsidian-Images.repo
