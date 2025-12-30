@@ -1,0 +1,7 @@
+kind: BGPPeer
+apiVersion: projectcalico.org/v3
+metadata:
+  name: bgppeer-demo
+spec:
+  nodeSelector: all()                     #节点选择器指定所有节点都要配置
+  peerSelector: route-reflector=="true"   #定义使用前面匹配的标签选择器，定义配置应用到目标节点
